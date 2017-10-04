@@ -22,8 +22,6 @@ public class MovieRestController {
 
     @GetMapping("/")
     public Flux<Movie> all() {
-
-        System.out.println("__FLUX WITH OLD STYLE");
         return movieFluxService.all();
     }
 
