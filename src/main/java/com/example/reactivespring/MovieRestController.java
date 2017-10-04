@@ -14,7 +14,7 @@ import reactor.core.publisher.Mono;
  * Created by alexandr.efimov@sigma.software on 10/3/2017.
  */
 @RestController
-@RequestMapping("/movie")
+@RequestMapping("/movies/v1")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class MovieRestController {
 
@@ -22,6 +22,8 @@ public class MovieRestController {
 
     @GetMapping("/")
     public Flux<Movie> all() {
+
+        System.out.println("__FLUX WITH OLD STYLE");
         return movieFluxService.all();
     }
 
