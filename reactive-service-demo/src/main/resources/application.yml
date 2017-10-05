@@ -4,6 +4,8 @@ spring:
   data:
     mongodb:
       database: reactive_demo
+  application:
+    name: reactive-service-demo
 logging:
   level:
     root: info
