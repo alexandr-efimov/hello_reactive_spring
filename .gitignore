@@ -15,26 +15,11 @@ target/
 *.iml
 *.ipr
 
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-!/reactive-client/mvnw.cmd
-!/reactive-client/.gitignore
-!/reactive-client/mvnw
 /reactive-service-demo/mvnw.cmd
 /reactive-service-demo/mvnw
 /reactive-client/mvnw
 /reactive-client/mvnw.cmd
 .mvn/
-reactive-client/
-reactive-service-demo/.gitignore
 reactive-service-demo/.mvn/
 reactive-service-demo/mvnw
 reactive-service-demo/mvnw.cmd
-reactive-service-demo/pom.xml
-reactive-service-demo/src/main/resources/static/
-reactive-service-demo/src/main/resources/templates/

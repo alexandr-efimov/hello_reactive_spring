@@ -20,13 +20,13 @@ import static org.springframework.web.reactive.function.server.RouterFunctions.r
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
 @SpringBootApplication
-public class HelloReactiveSpringApplication {
+public class ReactiveSpringApplication {
 
     @Autowired
     private MovieRepository movieRepository;
 
     public static void main(String[] args) {
-        SpringApplication.run(HelloReactiveSpringApplication.class, args);
+        SpringApplication.run(ReactiveSpringApplication.class, args);
     }
 
     @Bean
